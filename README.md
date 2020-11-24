@@ -5,4 +5,4 @@
 - DeeplabV3+ResNet101
 - DeeplabV3+ResNet50
 - FCN+ResNet101
-- LINK: https://sianalytics-my.sharepoint.com/:f:/g/personal/hyunguk_si-analytics_ai/ErDBL5Uzm7dGhYzwQ2DipWEBnj_jKJ--WmUSI0VZ9MMfgg?e=VZ96AB
+- LINK: https://www.dropbox.com/sh/ja28r1tir8varvi/AADaGnamlFcGO-fZ7mumMQ-aa?dl=0
