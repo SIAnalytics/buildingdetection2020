@@ -11,7 +11,7 @@
 - Label type: geojson (영상의 위/경도, 건물 polygon좌표, classes 등)
 
 # 결과
-![model 결과](./images/building_resutls.png)
+![model 결과](./images/building_results.png)
 
 # Weight file download
 - DeeplabV3+ResNet101
