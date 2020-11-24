@@ -16,13 +16,12 @@
 - etc: scipy, torchvision, numpy, PIL
 
 ## Train and Test
-
-<code>
 ```python
+<code>
 s = "Python syntax highlighting"
 print s
-```
 <code>
+```
 
 ## Results
 ![model 결과](./images/building_results.png)
