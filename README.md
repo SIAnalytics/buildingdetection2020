@@ -40,6 +40,9 @@
                                       --model_mode=학습할 모델 선택(DeepRes101 / DeepRes50 / DeepFCN101)[default='DeepRes101']
                                       --results_dir=결과영상 저장 경로
 ```
+- Multi GPU 이용시 train_nia_building_github.py의 40번째 line에 있는 *gpu_device = '0,1,..'* 형태로 원하는 여러 GPU를 잡아주고 204번째 line에 있는 *model=nn.DataParallel(model)* 을 활성화 시키시면 됩니다. (test에도 같은 방법을 적용)
+
+
 
 ## Results
 ![model 결과](./images/building_results.png)
