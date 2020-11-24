@@ -26,12 +26,20 @@
                                       --data_dir=데이터셋 경로     
                                       --img_folder_name=데이터경로 안에 있는 실제 이미지가 들어있는 subfolder의 이름 [default='asset']     
                                       --label_folder_name=데이터경로 안에 있는 실제 라벨링데이터가 들어있는 subfolder의 이름 [default='label_gray_contour_pub3']     
-  --snapshot_dir=학습된 weight file을 저장하는 경로     
-  --model_mode=학습할 모델 선택(DeepRes101 / DeepRes50 / DeepFCN101)[default='DeepRes101']
+                                      --snapshot_dir=학습된 weight file을 저장하는 경로     
+                                      --model_mode=학습할 모델 선택(DeepRes101 / DeepRes50 / DeepFCN101)[default='DeepRes101']
 ```
 
-
-
+```
+  python test_nia_building_github.py  --csv_data=학습데이터셋 리스트 CSV파일 이름 [default='/list_building_test_1386_modi.csv' ]   
+                                      --data_dir=데이터셋 경로     
+                                      --img_folder_name=데이터경로 안에 있는 실제 이미지가 들어있는 subfolder의 이름 [default='asset']     
+                                      --label_folder_name=데이터경로 안에 있는 실제 라벨링데이터가 들어있는 subfolder의 이름 [default='label_seg_gray_withcontour_1386']     
+                                      --restore_from=학습된 weight 가 있는 경로
+                                      --backbone_name=weight 파일 이름 [ex) 'model.pth]
+                                      --model_mode=학습할 모델 선택(DeepRes101 / DeepRes50 / DeepFCN101)[default='DeepRes101']
+                                      --results_dir=결과영상 저장 경로
+```
 
 ## Results
 ![model 결과](./images/building_results.png)
