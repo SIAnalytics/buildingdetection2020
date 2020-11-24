@@ -18,9 +18,11 @@
 ## Train and Test
 - 기본 셋팅 이외에 필수로 변경해야 하는 사항에 대해 parser 설명
 
-python train_nia_building_github.py --csv_data=학습데이터셋 리스트 CSV파일 경로 #
---data_dir=데이터셋 경로 --
-
+<code>
+python train_nia_building_github.py --csv_data=학습데이터셋 리스트 CSV파일 경로
+  
+  --data_dir=데이터셋 경로 --
+<code>
 
 
 
