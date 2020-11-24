@@ -24,7 +24,7 @@
 <code>
   python train_nia_building_github.py --csv_data=학습데이터셋 리스트 CSV파일 이름 [default='/list_building_train_pub3_modi.csv' ]
   
-  --data_dir=데이터셋 경로
+                                      --data_dir=데이터셋 경로
   
   --img_folder_name=데이터경로 안에 있는 실제 이미지가 들어있는 subfolder의 이름 [default='asset']
   
