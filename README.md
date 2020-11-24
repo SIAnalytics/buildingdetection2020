@@ -21,6 +21,7 @@
 
 ## Train and Test
 - 기본 셋팅 이외에 필수로 변경해야 하는 사항에 대해 parser 설명
+<pre>
 <code>
   python train_nia_building_github.py --csv_data=학습데이터셋 리스트 CSV파일 이름 [default='/list_building_train_pub3_modi.csv' ]
   
@@ -33,7 +34,8 @@
   --snapshot_dir=학습된 weight file을 저장하는 경로
   
   --model_mode=학습할 모델 선택(DeepRes101 / DeepRes50 / DeepFCN101)[default='DeepRes101']
-<code>
+</code>
+</pre>
 
 
 
