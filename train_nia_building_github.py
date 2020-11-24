@@ -201,7 +201,7 @@ def main():
         raise Exception("Please select a model")
 
     model.cuda(0)
-    model=nn.DataParallel(model)
+#     model=nn.DataParallel(model)
     model.train()
     # 쉽게 true로 두면 비용(memory 등) 이 더 들지만 성능이 향상됨.
     cudnn.benchmark = False  # cudnn.benchmark = true -- uses the inbuilt cudnn auto-tuner to find the fastest convolution algorithms.
