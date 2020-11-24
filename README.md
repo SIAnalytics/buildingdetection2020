@@ -1,4 +1,4 @@
-## Building Detection2020
+## Building Detection 2020
 2020년 국가 위성영상 AI 데이터 구축 사업의 일환으로 만들어진 코드입니다.
 
 ## Model
@@ -31,7 +31,7 @@
 ```
 
 ```
-  python test_nia_building_github.py  --csv_data=학습데이터셋 리스트 CSV파일 이름 [default='/list_building_test_1386_modi.csv' ]   
+  python test_nia_building_github.py  --csv_data=테스트데이터셋 리스트 CSV파일 이름 [default='/list_building_test_1386_modi.csv' ]   
                                       --data_dir=데이터셋 경로     
                                       --img_folder_name=데이터경로 안에 있는 실제 이미지가 들어있는 subfolder의 이름 [default='asset']     
                                       --label_folder_name=데이터경로 안에 있는 실제 라벨링데이터가 들어있는 subfolder의 이름 [default='label_seg_gray_withcontour_1386']     
