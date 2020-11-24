@@ -15,12 +15,23 @@
 - cuda 11
 - etc: scipy, torchvision, numpy, PIL
 
+## preprocessing
+- 학습과 테스트 이전에 polygon 형태의 label 파일을 semantic segmentation 형태로 변형
+- 
+
 ## Train and Test
 - 기본 셋팅 이외에 필수로 변경해야 하는 사항에 대해 parser 설명
 
 
-<code> python train_nia_building_github.py --csv_data=학습데이터셋 리스트 CSV파일 경로 <code>
-<code>  --data_dir=데이터셋 경로 <code>
+<code>
+  python train_nia_building_github.py --csv_data=학습데이터셋 리스트 CSV파일 경로 
+  --data_dir=데이터셋 경로
+  --img_folder_name=데이터경로 안에 있는 실제 이미지가 들어있는 subfolder의 이름 [default='asset']
+  --label_folder_name=데이터경로 안에 있는 실제 라벨링데이터가 들어있는 subfolder의 이름 [default='label_gray_contour_pub3']
+  --snapshot_dir=학습된 weight file을 저장하는 경로
+  --model_mode=학습할 모델 선택(DeepRes101 / DeepRes50 / DeepFCN101)[default='DeepRes101']
+  
+<code>
 
 
 
