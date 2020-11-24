@@ -2,7 +2,7 @@
 2020년 국가 위성영상 AI 데이터 구축 사업의 일환으로 만들어진 코드입니다.
 
 ## Model
-![전체 모델 구조](./images/model.png)
+![전체 모델 구조](./images/model2.png)
 
 ## Dataset Introduction
 - 인공위성: 다목적실용위성 (KOMPSAT) 3호/3A호  (아리랑위성)
