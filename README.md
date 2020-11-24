@@ -10,6 +10,8 @@
 - Classes: 소형시설(1), 아파트(2), 공장(3), 중형단독시설(4), 대형시설(5)
 - Label type: geojson (영상의 위/경도, 건물 polygon좌표, classes 등)
 
+# 결과
+![전체 모델 구조](./images/model.png)
 
 # Weight file download
 - DeeplabV3+ResNet101
