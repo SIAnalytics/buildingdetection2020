@@ -13,10 +13,14 @@
 ## Requirement
 - torch 1.7
 - cuda 11
-- etc: scipy, 
+- etc: scipy, torchvision, numpy, PIL
 
-## Quick start
+## Train and Test
+```python
+s = "Python syntax highlighting"
+print s
 
+```
 
 ## Results
 ![model 결과](./images/building_results.png)
