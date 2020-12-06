@@ -19,9 +19,9 @@ from PIL import Image
 """                                    parameters                                """
 """=============================================================================="""
 ## 파일 경로 입력
-DIR_geojsons = '/mnt/datasets/RSI_OP_NIA_PUB3/road/label/' 
+DIR_geojsons = '/mnt/datasets/RSI_OP_NIA_PUB3/building/label/' 
 DIR_csv = '/mnt/datasets/RSI_OP_NIA_PUB3/building/list_building_pub3.csv'
-DIR_SAVE_GT_IMG = '/mnt/datasets/RSI_OP_NIA_PUB3/road/label_color_contour_pub3/' 
+DIR_SAVE_GT_IMG = '/mnt/datasets/RSI_OP_NIA_PUB3/building/label_color_contour_pub3/' 
 image_size = 1024
 GTformat = True # True: 각 pixel은 class로 기록 (1,2,3,....), False: 각 pixel은 3차원 RGB로 기록
 
@@ -54,9 +54,9 @@ for i in range(list_geojson.__len__()):
 starting_index = 0
 
 if GTformat == True: # 채널 파라미터 입력
-    num_channel = 3   
+    num_channel = 1  
 else:
-    num_channel = 1
+    num_channel = 3
 
 
 previous_name = list_geojson[starting_index]
