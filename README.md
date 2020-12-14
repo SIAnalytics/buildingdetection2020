@@ -11,6 +11,7 @@
 - Label type: geojson (영상의 위/경도, 건물 polygon좌표, classes 등)
 - Train file list : list_building_train_pub4_modi.csv
 - Test file list : list_building_test_pub4_modi_list1.csv
+
 ====Train 과 Test list 는 밀집지역과 오분류를 제외한 데이터셋으로 구성된 리스트 입니다. (실제 활용 영상 리스트 건물 20만+)====
 
 ## Requirement
