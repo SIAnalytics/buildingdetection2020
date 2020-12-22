@@ -5,6 +5,7 @@
 ![전체 모델 구조](./images/model2.png)
 
 ## Dataset Introduction
+- Name : KOSDAB (KOrea Multi-Purpose Satelliete image DAtaset for Building detection )
 - 인공위성: 다목적실용위성 (KOMPSAT) 3호/3A호  (아리랑위성)
 - Pixel size: (1024, 1024)
 - Classes: 소형시설(1), 아파트(2), 공장(3), 중형단독시설(4), 대형시설(5)
