@@ -57,7 +57,7 @@ csv_data = 'list_building_train_pub4_modi.csv'
 DATA_DIRECTORY = '/mnt/datasets/RSI_OP_NIA_PUB4/building'
 
 img_folder_name = 'asset' # DATA_DIRECTORY 내 image 가 들어있는 폴더 이름
-label_folder_name = 'label_gray_contour_pub3' # DATA_DIRECTORY 내 GT image 가 들어있는 폴더 이름
+label_folder_name = 'label_gray_contour_pub4' # DATA_DIRECTORY 내 GT image 가 들어있는 폴더 이름
 """------------------------------- SAVE -----------------------------------"""
 SAVE_PRED_EVERY = 20 # 해당 iter 마다 한번씩 저장
 SNAPSHOT_DIR = '/mnt/workspace/hyunguk/nia/snapshots_nia_building_resnet50_contour_test/' # 저장 경로
