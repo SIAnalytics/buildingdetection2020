@@ -38,7 +38,7 @@ model_mode = 'DeepRes101' # DeepRes101 / DeepRes50 / DeepFCN101
 """=============================================================================="""
 
 """------------------------ LOAD ---------------------------"""
-DATA_DIR = '/mnt/datasets/RSI_OP_NIA_MIDTERM/building'
+DATA_DIR = '/mnt/datasets/RSI_OP_NIA_PUB4/building'
 img_folder_name = 'asset' 
 label_folder_name = 'label_seg_gray_withcontour_1386' #'trainLabel' #'GT_rgbseg'
 GT_FORMAT = '.png'
