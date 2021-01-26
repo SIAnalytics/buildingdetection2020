@@ -48,7 +48,7 @@ x_window_step = 200
 y_window_step = 200
 BACKBONE_DIR = '/mnt/workspace/hyunguk/nia/snapshots_nia_building_resnet101_contour_1386_modi/'
 BACKBONE_NAME = 'sn6_resunet50_148.pth'
-csv_data = 'list_building_test.csv'
+csv_data = 'list_building_test_pub4_modi_list1.csv'
 """------------------------ SAVE ---------------------------"""
 RESULTS_DIR = '/mnt/workspace/hyunguk/nia/RESULTS_nia_deepRes50_1386_ep149/' # 저장 경로
 """------------------------ function parameters ---------------------------"""
