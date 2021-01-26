@@ -53,7 +53,7 @@ IMG_FORMAT = '.png'
 GT_FORMAT = '.png'
 INPUT_SIZE = 512 # 학습으로 들어가는 영상 크기
 ORIGINAL_SIZE = 1024 # 데이터셋 영상 크기
-csv_data = 'list_building_train.csv' 
+csv_data = 'list_building_train_pub4_modi.csv'
 DATA_DIRECTORY = '/mnt/datasets/RSI_OP_NIA_PUB3/building'
 
 img_folder_name = 'asset' # DATA_DIRECTORY 내 image 가 들어있는 폴더 이름
