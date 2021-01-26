@@ -48,7 +48,7 @@ x_window_step = 200
 y_window_step = 200
 BACKBONE_DIR = '/mnt/workspace/hyunguk/nia/snapshots_nia_building_resnet101_contour_1386_modi/'
 BACKBONE_NAME = 'sn6_resunet50_148.pth'
-csv_data = '/list_building_test_1386_modi.csv'
+csv_data = 'list_building_test.csv'
 """------------------------ SAVE ---------------------------"""
 RESULTS_DIR = '/mnt/workspace/hyunguk/nia/RESULTS_nia_deepRes50_1386_ep149/' # 저장 경로
 """------------------------ function parameters ---------------------------"""
@@ -137,7 +137,8 @@ def main():
         
     """-------------------------- FILE LOAD ----------------------------------"""
     name_list = []
-    f = open(args.data_dir + args.list_file_name, 'r')
+#     f = open(args.data_dir + args.list_file_name, 'r')
+    f = open(args.list_file_name, 'r')
     names = csv.reader(f)
     for name in names:
         name[0] = name[0] + args.gt_format  # csv 파일 list 에 확장자가 빠진 이름들의 list 이므로
