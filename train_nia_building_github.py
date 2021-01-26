@@ -53,7 +53,7 @@ IMG_FORMAT = '.png'
 GT_FORMAT = '.png'
 INPUT_SIZE = 512 # 학습으로 들어가는 영상 크기
 ORIGINAL_SIZE = 1024 # 데이터셋 영상 크기
-csv_data = '/list_building_train_pub3_modi.csv' 
+csv_data = 'list_building_train.csv' 
 DATA_DIRECTORY = '/mnt/datasets/RSI_OP_NIA_PUB3/building'
 
 img_folder_name = 'asset' # DATA_DIRECTORY 내 image 가 들어있는 폴더 이름
@@ -218,7 +218,8 @@ def main():
     """-------------------------- FILE LOAD --------------------------"""
 
     name_list = []
-    f = open(args.data_dir + args.csv_data, 'r')
+#     f = open(args.data_dir + args.csv_data, 'r')
+    f = open(args.csv_data, 'r')
     names = csv.reader(f)
     for name in names:
         name[0] = name[0] + args.gt_format  # csv 파일 list 에 확장자가 빠진 이름들의 list 이므로
