@@ -56,4 +56,4 @@
 - DeeplabV3+ResNet101
 - DeeplabV3+ResNet50
 - FCN+ResNet101
-- LINK: [Download](https://www.dropbox.com/sh/ja28r1tir8varvi/AADaGnamlFcGO-fZ7mumMQ-aa?dl=0) 
+- LINK: [Download](https://www.dropbox.com/sh/ja28r1tir8varvi/AABEYe4ivQQXYg8ALPSH08TGa/github_weight_files?dl=0&subfolder_nav_tracking=1) 
